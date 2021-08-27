@@ -1,0 +1,15 @@
+[package]
+name = "infocollect"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yaml-rust = "0.4.4"
+aes = "0.7.4"
+#psutil = "3.2.1"
+#sysinfo = "0.20.1"
+sysinfo = { path = "/Users/sunxia/git_project/sysinfo" }
+heim = { path = "/Users/sunxia/git_project/heim/heim", features = ["full"] }
+smol = "^1.2"
